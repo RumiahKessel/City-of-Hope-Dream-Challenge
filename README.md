@@ -1,5 +1,6 @@
 # CTD-squared Pancancer Chemosensitivity: Singular Value Decomposition and Regression Trees Approach
-Abstract and Code by Rumiah Kessel
+
+For obvious reasons the actual patient data from the study could not be provided, but the algorithms were and can be found in the files above. Below is the abstract submitted to the study alongside the algorithm.
  
 ## Introduction
 The goal of this study was to develop a model that predicts drug sensitivity across 515 distinct cell lines using drug response data from eleven cell lines and gene viability data from 515 cell lines. Two models were tested: both used principal component analysis (PCA) to reduce dimensionality of the training data, but one utilized sparse linear regression (lasso) while the other used bagged regression trees. The decision was made to move forward with the regression tree algorithm for reasons cited below.
@@ -22,3 +23,4 @@ The best performance was observed when a combination of a nonlinear approach and
 * "An Interactive Resource to Identify Cancer Genetic and Lineage Dependencies Targeted by Small Molecules" Basu, Bodycombe, Cheah, et al., Cell, 154, 1151-1161 (2013)
 * "A community effort to assess and improve drug sensitivity prediction algorithms" Costello JC, Heiser LM, Georgii E, et al. Nat Biotechnol. 2014;32(12):1202-1212. doi:10.1038/nbt.2877
 
+Abstract and Code by Rumiah Kessel
